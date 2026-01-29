@@ -6,7 +6,7 @@ import ResultCard from "./components/ResultCard";
 import ImageViewer from "./components/ImageViewer";
 
 // 🔥 Backend (ngrok or real domain – both work)
-const API_URL = "https://7071f6643e3a.ngrok-free.app/predict";
+const API_URL = "https://ec76ea06461d.ngrok-free.app ";
 
 function App() {
   const [file, setFile] = useState(null);
