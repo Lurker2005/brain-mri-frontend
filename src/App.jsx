@@ -6,7 +6,7 @@ import ResultCard from "./components/ResultCard";
 import ImageViewer from "./components/ImageViewer";
 
 // 🔥 Backend (ngrok or real domain – both work)
-const API_URL = "https://c7e8a253794b.ngrok-free.app/predict";
+const API_URL = "https://brainmri-anomaly.onrender.com/predict";
 
 function App() {
   const [file, setFile] = useState(null);
